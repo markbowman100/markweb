@@ -40,7 +40,7 @@
 <html>
 	<body>
 
-		<p>You have entered an incorrect Username or Password. Please try again.</p>
+		<p>You have entered an incorrect Username or Password. Please try again or <a href="/markweb/register.php">register.</a></p>
 		<form action="/markweb/loginerror.php" method = "post">
 			Username:<br>
 			<input type="text" name="username" placeholder="Username">

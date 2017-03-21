@@ -2,7 +2,7 @@
 <html>
 	<body>
 
-		<p>Welcome to Markweb. Please login.</p>
+		<p>Welcome to Markweb. Please login or <a href="/markweb/register.php">register.</a></p>
 		<form action="/markweb/loginerror.php" method = "post">
 			Username:<br>
 			<input type="text" name="username" placeholder="Username">
